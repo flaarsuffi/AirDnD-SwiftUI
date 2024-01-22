@@ -51,6 +51,7 @@
 		60B7F2D62B5EA557005A3D96 /* AirDnd */ = {
 			isa = PBXGroup;
 			children = (
+				60B7F2E52B5EA752005A3D96 /* New Group */,
 				60B7F2D72B5EA557005A3D96 /* AirDndApp.swift */,
 				60B7F2D92B5EA557005A3D96 /* ContentView.swift */,
 				60B7F2DB2B5EA559005A3D96 /* Assets.xcassets */,
@@ -65,6 +66,13 @@
 				60B7F2DE2B5EA559005A3D96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60B7F2E52B5EA752005A3D96 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
