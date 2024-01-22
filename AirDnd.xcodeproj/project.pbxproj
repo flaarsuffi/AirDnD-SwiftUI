@@ -11,6 +11,8 @@
 		60B7F2DA2B5EA557005A3D96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2D92B5EA557005A3D96 /* ContentView.swift */; };
 		60B7F2DC2B5EA559005A3D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B7F2DB2B5EA559005A3D96 /* Assets.xcassets */; };
 		60B7F2DF2B5EA559005A3D96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B7F2DE2B5EA559005A3D96 /* Preview Assets.xcassets */; };
+		60B7F2F32B5EABAE005A3D96 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2F22B5EABAE005A3D96 /* ExploreView.swift */; };
+		60B7F2F52B5EAD2C005A3D96 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2F42B5EAD2C005A3D96 /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		60B7F2D92B5EA557005A3D96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		60B7F2DB2B5EA559005A3D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60B7F2DE2B5EA559005A3D96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60B7F2F22B5EABAE005A3D96 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		60B7F2F42B5EAD2C005A3D96 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,11 @@
 		60B7F2D62B5EA557005A3D96 /* AirDnd */ = {
 			isa = PBXGroup;
 			children = (
-				60B7F2E52B5EA752005A3D96 /* New Group */,
-				60B7F2D72B5EA557005A3D96 /* AirDndApp.swift */,
+				60B7F2E52B5EA752005A3D96 /* App */,
+				60B7F2E62B5EAA33005A3D96 /* Core */,
+				60B7F2E72B5EAA42005A3D96 /* Extensions */,
+				60B7F2E82B5EAA5E005A3D96 /* Models */,
+				60B7F2E92B5EAA68005A3D96 /* Utils */,
 				60B7F2D92B5EA557005A3D96 /* ContentView.swift */,
 				60B7F2DB2B5EA559005A3D96 /* Assets.xcassets */,
 				60B7F2DD2B5EA559005A3D96 /* Preview Content */,
@@ -68,11 +75,98 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		60B7F2E52B5EA752005A3D96 /* New Group */ = {
+		60B7F2E52B5EA752005A3D96 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				60B7F2D72B5EA557005A3D96 /* AirDndApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		60B7F2E62B5EAA33005A3D96 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60B7F2EA2B5EAAC9005A3D96 /* Explore */,
+				60B7F2EB2B5EAAD1005A3D96 /* Listings */,
+				60B7F2EC2B5EAADD005A3D96 /* MapView */,
+				60B7F2ED2B5EAAE6005A3D96 /* Profile */,
+				60B7F2EE2B5EAB08005A3D96 /* Root */,
+				60B7F2EF2B5EAB12005A3D96 /* TabBar */,
+				60B7F2F02B5EAB1B005A3D96 /* Wishlists */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		60B7F2E72B5EAA42005A3D96 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		60B7F2E82B5EAA5E005A3D96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60B7F2E92B5EAA68005A3D96 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		60B7F2EA2B5EAAC9005A3D96 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				60B7F2F22B5EABAE005A3D96 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		60B7F2EB2B5EAAD1005A3D96 /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				60B7F2F42B5EAD2C005A3D96 /* ListingItemView.swift */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		60B7F2EC2B5EAADD005A3D96 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		60B7F2ED2B5EAAE6005A3D96 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		60B7F2EE2B5EAB08005A3D96 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		60B7F2EF2B5EAB12005A3D96 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		60B7F2F02B5EAB1B005A3D96 /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wishlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B7F2DA2B5EA557005A3D96 /* ContentView.swift in Sources */,
+				60B7F2F52B5EAD2C005A3D96 /* ListingItemView.swift in Sources */,
+				60B7F2F32B5EABAE005A3D96 /* ExploreView.swift in Sources */,
 				60B7F2D82B5EA557005A3D96 /* AirDndApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
