@@ -13,6 +13,7 @@
 		60B7F2DF2B5EA559005A3D96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B7F2DE2B5EA559005A3D96 /* Preview Assets.xcassets */; };
 		60B7F2F32B5EABAE005A3D96 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2F22B5EABAE005A3D96 /* ExploreView.swift */; };
 		60B7F2F52B5EAD2C005A3D96 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2F42B5EAD2C005A3D96 /* ListingItemView.swift */; };
+		60B7F2F82B5EFCF3005A3D96 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2F72B5EFCF3005A3D96 /* SearchAndFilterBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		60B7F2DE2B5EA559005A3D96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60B7F2F22B5EABAE005A3D96 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		60B7F2F42B5EAD2C005A3D96 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		60B7F2F72B5EFCF3005A3D96 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		60B7F2EA2B5EAAC9005A3D96 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				60B7F2F62B5EFCD8005A3D96 /* Components */,
 				60B7F2F22B5EABAE005A3D96 /* ExploreView.swift */,
 			);
 			path = Explore;
@@ -167,6 +170,14 @@
 			children = (
 			);
 			path = Wishlists;
+			sourceTree = "<group>";
+		};
+		60B7F2F62B5EFCD8005A3D96 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				60B7F2F72B5EFCF3005A3D96 /* SearchAndFilterBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 				60B7F2DA2B5EA557005A3D96 /* ContentView.swift in Sources */,
 				60B7F2F52B5EAD2C005A3D96 /* ListingItemView.swift in Sources */,
 				60B7F2F32B5EABAE005A3D96 /* ExploreView.swift in Sources */,
+				60B7F2F82B5EFCF3005A3D96 /* SearchAndFilterBar.swift in Sources */,
 				60B7F2D82B5EA557005A3D96 /* AirDndApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
