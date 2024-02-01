@@ -25,7 +25,8 @@ struct ExploreView: View {
                 }
             }
             .navigationDestination(for: Int.self) { listing in
-                Text("Detail View Under Construction")
+                ListingDetailView()
+                    .navigationBarBackButtonHidden()
             }
         }
     }
