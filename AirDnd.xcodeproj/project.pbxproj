@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60A4CDB82B6BECC600347BB1 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A4CDB72B6BECC600347BB1 /* DestinationSearchView.swift */; };
 		60B7F2D82B5EA557005A3D96 /* AirDndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2D72B5EA557005A3D96 /* AirDndApp.swift */; };
 		60B7F2DA2B5EA557005A3D96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B7F2D92B5EA557005A3D96 /* ContentView.swift */; };
 		60B7F2DC2B5EA559005A3D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B7F2DB2B5EA559005A3D96 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60A4CDB72B6BECC600347BB1 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		60B7F2D42B5EA557005A3D96 /* AirDnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B7F2D72B5EA557005A3D96 /* AirDndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDndApp.swift; sourceTree = "<group>"; };
 		60B7F2D92B5EA557005A3D96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				60B7F2F62B5EFCD8005A3D96 /* Components */,
 				60B7F2F22B5EABAE005A3D96 /* ExploreView.swift */,
+				60A4CDB72B6BECC600347BB1 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				60B7F2F52B5EAD2C005A3D96 /* ListingItemView.swift in Sources */,
 				60B7F2FF2B5FE70A005A3D96 /* RatingView.swift in Sources */,
 				60B7F2F32B5EABAE005A3D96 /* ExploreView.swift in Sources */,
+				60A4CDB82B6BECC600347BB1 /* DestinationSearchView.swift in Sources */,
 				60B7F2F82B5EFCF3005A3D96 /* SearchAndFilterBar.swift in Sources */,
 				60B7F2FA2B5FE420005A3D96 /* ListingDetailView.swift in Sources */,
 				60B7F2D82B5EA557005A3D96 /* AirDndApp.swift in Sources */,
